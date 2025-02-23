@@ -1,0 +1,17 @@
+__pycache__/*
+*/__pycache__
+__pycache__/
+__pycache__
+
+TODO
+*/TODO
+
+venv
+
+data/*
+
+!data/.gitkeep
+
+.idea
+
+old_db
