@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "manager_bot"
+version = "0.1.0"
+description = ""
+authors = ["johann-gorban"]
+readme = "./README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.12"
+aiogram = "3.17.0"
+SQLAlchemy = "2.0.38"
+aiosqlite = "0.21.0"
+APScheduler = "3.11.0"
+pytz = "2025.1"
+Flask = "3.1.0"
+requests = "2.32.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
